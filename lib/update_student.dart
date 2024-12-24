@@ -25,7 +25,7 @@ class _UpdateStudentstate extends State<UpdateStudent> {
    String? image;
    String? newImage;
    int? id;
-   final _formKey=GlobalKey<FormState>();
+   final formKey=GlobalKey<FormState>();
    
    @override
    void initState(){
